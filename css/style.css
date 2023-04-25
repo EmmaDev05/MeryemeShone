@@ -213,51 +213,6 @@ p {
 /* End Social Icons */
 
 /* Button */
-/* .button {
-  height: 50px;
-  padding: 0;
-  background: #38bc4c;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  overflow: hidden;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  transition: all 160ms ease-in;
-}
-
-.button:hover {
-  background: #008168;
-}
-
-.button:active {
-  background: #006e58;
-  transform: scale(0.95);
-  border: none;
-}
-
-.button-box {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.button_text,
-.button_icon {
-  align-items: center;
-  height: 100%;
-  padding: 0 12px;
-  color: rgb(226, 226, 226);
-}
-
-.button_icon {
-  font-size: 1.2em;
-} */
-
 .btn-1 {
   background-color: #38bc4c;
   width: 60px;
@@ -350,7 +305,6 @@ p {
 /* End Button */
 
 /* Owl Button */
-
 .owl-carousel {
   margin: auto 0 20px 0;
   /* border: solid 1px yellow; */
@@ -391,7 +345,6 @@ p {
 .owl-next {
   right: 20px;
 }
-
 /* End Owl Button */
 
 /* Start Navbar */
@@ -625,7 +578,6 @@ p {
 #about {
   margin-top: 80px;
   margin-bottom: 60px;
-  /* border: solid 1px yellowgreen; */
 }
 
 .mer-img {
@@ -648,7 +600,6 @@ p {
   padding-top: 30px;
   width: 100%;
   height: 100vmax;
-  /* border: solid red 1px; */
 }
 
 .canvas {
@@ -798,93 +749,6 @@ p {
   border: solid 4px #003347;
 }
 /* End Work */
-
-/* Service */
-/* #service {
-  width: 100%;
-  padding: 30px 0;
-}
-
-.container-cards {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  border-radius: 15px;
-}
-
-.card-event {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-end;
-  align-items: center;
-  width: 300px;
-  height: 350px;
-  border: 8px solid #fff;
-  margin: 10px auto;
-}
-
-.cards-items-1 {
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../img/card-service/pexels-airam-datoon-11555718.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 6px 5px 18px #003347;
-}
-
-.cards-items-3 {
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../img/card-service/pexels-asad-photo-maldives-1024993.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 6px 5px 18px #003347;
-}
-
-.cards-items-6 {
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../img/card-service/travel.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 6px 5px 18px #003347;
-}
-
-.meeting-data {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 80px;
-  background-color: #fff;
-}
-
-.meeting-title {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  background: #fff;
-  font-style: italic;
-} */
-/* End Service */
 
 /* Testimonials */
 #testimonials {

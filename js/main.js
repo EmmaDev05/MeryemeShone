@@ -50,3 +50,36 @@ $(document).ready(function () {
     autoPlay: true,
   });
 });
+
+/* When your mouse cursor enter the background, the fading won't pause and keep playing */
+$(".carousel").carousel({
+  pause:
+    "false" /* Change to true to make it paused when your mouse cursor enter the background */,
+});
+
+$(".carousel-1").owlCarousel({
+  loop: true,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+    1400: {
+      items: 4,
+    },
+    1600: {
+      items: 5,
+    },
+    2000: {
+      items: 6,
+    },
+  },
+});
